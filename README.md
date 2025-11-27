@@ -211,6 +211,13 @@ curl http://localhost:8761/eureka/apps
 docker-compose restart order-service product-service payment-service
 ```
 
+## 📸 Capturas de pantalla
+
+- [Spring Eureka](https://github.com/ccrrmmrr/ecommerce-kafka/tree/main/screenshots/spring_eureka.PNG)
+- [Estado de la Base de Datos](https://github.com/ccrrmmrr/ecommerce-kafka/tree/main/screenshots/EstadoBD.PNG)
+- [Kafka Topicos](https://github.com/ccrrmmrr/ecommerce-kafka/tree/main/screenshots/topics.PNG)
+- [Kafka Consumers](https://github.com/ccrrmmrr/ecommerce-kafka/tree/main/screenshots/consumers.PNG)
+
 ## 🤝 Contribución
 ```text
 1. Fork el proyecto
