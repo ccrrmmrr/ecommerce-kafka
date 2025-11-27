@@ -241,7 +241,7 @@ docker-compose restart order-service product-service payment-service
 
 
 
-## 👨<200d>💻 Autor
+## 👨💻 Autor
 
 Carlos Roberto Martinez Rivadeneira - ccrrmmrr
 
