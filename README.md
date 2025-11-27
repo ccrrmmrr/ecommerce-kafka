@@ -228,9 +228,6 @@ docker-compose restart order-service product-service payment-service
 5. Abre un Pull Request
 ```
 
-## 👨‍💻 Autor
-
-Carlos Roberto Martinez Rivadeneira - ccrrmmrr
 
 ## 🎯 Próximas Mejoras
 
@@ -244,5 +241,7 @@ Carlos Roberto Martinez Rivadeneira - ccrrmmrr
 
 
 
+## 👨<200d>💻 Autor
 
+Carlos Roberto Martinez Rivadeneira - ccrrmmrr
 
