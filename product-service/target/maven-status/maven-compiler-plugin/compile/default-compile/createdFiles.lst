@@ -1,0 +1,11 @@
+com/ecommerce/product/dto/OrderCreatedEvent$OrderCreatedEventBuilder.class
+com/ecommerce/product/repository/ProductRepository.class
+com/ecommerce/product/dto/InventoryUpdatedEvent$InventoryUpdatedEventBuilder.class
+com/ecommerce/product/dto/OrderCreatedEvent$OrderItem.class
+com/ecommerce/product/model/Product$ProductBuilder.class
+com/ecommerce/product/ProductServiceApplication.class
+com/ecommerce/product/kafka/OrderEventConsumer.class
+com/ecommerce/product/dto/OrderCreatedEvent.class
+com/ecommerce/product/model/Product.class
+com/ecommerce/product/dto/OrderCreatedEvent$OrderItem$OrderItemBuilder.class
+com/ecommerce/product/dto/InventoryUpdatedEvent.class

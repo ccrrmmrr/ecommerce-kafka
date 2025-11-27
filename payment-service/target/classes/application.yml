@@ -1,0 +1,40 @@
+spring:
+  application:
+    name: payment-service
+  
+  datasource:
+    url: jdbc:postgresql://postgres:5432/payment_db
+    username: admin
+    password: password
+  
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  
+  kafka:
+    consumer:
+      bootstrap-servers: kafka:9093
+      group-id: payment-service-group
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    producer:
+      bootstrap-servers: kafka:9093
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+
+server:
+  port: 8085
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://discovery-service:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+logging:
+  level:
+    com.ecommerce.payment: DEBUG
+    org.springframework.kafka: DEBUG

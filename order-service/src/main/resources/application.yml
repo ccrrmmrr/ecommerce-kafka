@@ -1,0 +1,39 @@
+spring:
+  application:
+    name: order-service
+  
+  datasource:
+    url: jdbc:postgresql://postgres:5432/order_db
+    username: admin
+    password: password
+  
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  
+  kafka:
+    bootstrap-servers: kafka:9093
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    consumer:
+      group-id: order-service-group
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+
+server:
+  port: 8084
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://discovery-service:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+logging:
+  level:
+    com.ecommerce.order: DEBUG
+    org.springframework.kafka: DEBUG

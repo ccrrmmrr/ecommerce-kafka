@@ -1,0 +1,5 @@
+com/ecommerce/common/event/product/ProductReservedEvent.class
+com/ecommerce/common/event/order/OrderCreatedEvent$OrderItem.class
+com/ecommerce/common/event/order/OrderCreatedEvent.class
+com/ecommerce/common/dto/BaseDto.class
+com/ecommerce/common/event/BaseEvent.class

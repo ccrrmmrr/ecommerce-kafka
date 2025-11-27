@@ -1,0 +1,4 @@
+/home/cmartinez/projects/ecommerce-kafka/payment-service/src/main/java/com/ecommerce/payment/kafka/InventoryEventConsumer.java
+/home/cmartinez/projects/ecommerce-kafka/payment-service/src/main/java/com/ecommerce/payment/PaymentServiceApplication.java
+/home/cmartinez/projects/ecommerce-kafka/payment-service/src/main/java/com/ecommerce/payment/dto/PaymentProcessedEvent.java
+/home/cmartinez/projects/ecommerce-kafka/payment-service/src/main/java/com/ecommerce/payment/dto/InventoryUpdatedEvent.java

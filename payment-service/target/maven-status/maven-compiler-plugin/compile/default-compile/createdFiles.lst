@@ -1,0 +1,6 @@
+com/ecommerce/payment/dto/PaymentProcessedEvent.class
+com/ecommerce/payment/dto/InventoryUpdatedEvent$InventoryUpdatedEventBuilder.class
+com/ecommerce/payment/dto/PaymentProcessedEvent$PaymentProcessedEventBuilder.class
+com/ecommerce/payment/kafka/InventoryEventConsumer.class
+com/ecommerce/payment/PaymentServiceApplication.class
+com/ecommerce/payment/dto/InventoryUpdatedEvent.class

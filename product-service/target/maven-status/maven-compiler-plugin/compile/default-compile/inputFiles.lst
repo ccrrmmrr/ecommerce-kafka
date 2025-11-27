@@ -1,0 +1,6 @@
+/home/cmartinez/projects/ecommerce-kafka/product-service/src/main/java/com/ecommerce/product/dto/InventoryUpdatedEvent.java
+/home/cmartinez/projects/ecommerce-kafka/product-service/src/main/java/com/ecommerce/product/kafka/OrderEventConsumer.java
+/home/cmartinez/projects/ecommerce-kafka/product-service/src/main/java/com/ecommerce/product/dto/OrderCreatedEvent.java
+/home/cmartinez/projects/ecommerce-kafka/product-service/src/main/java/com/ecommerce/product/ProductServiceApplication.java
+/home/cmartinez/projects/ecommerce-kafka/product-service/src/main/java/com/ecommerce/product/repository/ProductRepository.java
+/home/cmartinez/projects/ecommerce-kafka/product-service/src/main/java/com/ecommerce/product/model/Product.java

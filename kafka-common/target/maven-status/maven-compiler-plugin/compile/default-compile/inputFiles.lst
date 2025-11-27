@@ -1,0 +1,4 @@
+/home/cmartinez/projects/ecommerce-kafka/kafka-common/src/main/java/com/ecommerce/common/event/BaseEvent.java
+/home/cmartinez/projects/ecommerce-kafka/kafka-common/src/main/java/com/ecommerce/common/event/product/ProductReservedEvent.java
+/home/cmartinez/projects/ecommerce-kafka/kafka-common/src/main/java/com/ecommerce/common/dto/BaseDto.java
+/home/cmartinez/projects/ecommerce-kafka/kafka-common/src/main/java/com/ecommerce/common/event/order/OrderCreatedEvent.java
